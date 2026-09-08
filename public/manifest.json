@@ -1,0 +1,9 @@
+{
+  "name": "GPS - Aula 04",
+  "short_name": "GPS App",
+  "description": "Aplicativo PWA para captura de posição GPS",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb"
+}

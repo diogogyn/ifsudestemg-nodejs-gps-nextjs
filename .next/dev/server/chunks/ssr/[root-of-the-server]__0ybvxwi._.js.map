@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///Users/diogosantos/Documents/develop/ifsudestemg-nodejs-gps-nextjs/src/app/ServiceWorkerRegister.jsx"],"sourcesContent":["'use client';\n\nimport { useEffect } from 'react';\n\nexport default function ServiceWorkerRegister() {\n  useEffect(() => {\n    if ('serviceWorker' in navigator) {\n      navigator.serviceWorker.register('/sw.js').catch((err) => {\n        console.error(\"Falha ao registrar Service Worker:\", err);\n      });\n    }\n  }, []);\n\n  return null;\n}"],"names":["ServiceWorkerRegister","navigator","serviceWorker","register","catch","err","console","error"],"mappings":";;;;AAEA;AAFA;;AAIe,SAASA;IACtB,IAAA,kNAAS,EAAC;QACR,IAAI,mBAAmBC,WAAW;YAChCA,UAAUC,aAAa,CAACC,QAAQ,CAAC,UAAUC,KAAK,CAAC,CAACC;gBAChDC,QAAQC,KAAK,CAAC,sCAAsCF;YACtD;QACF;IACF,GAAG,EAAE;IAEL,OAAO;AACT"}}]
+}
